@@ -1,0 +1,5 @@
+.ui-rotatable.ui-rotatable-rotating { cursor: all-scroll !important; }
+.ui-rotatable.ui-rotatable-rotating .ui-resizable-handle { cursor: all-scroll !important; }
+.ui-rotatable .ui-rotatable-handle { position: absolute; top: -24px; left: 50%; width: 8px; height: 8px; margin-left: -5px; cursor: all-scroll; background: #fff; border: 1px solid #333; -webkit-border-radius: 5px; border-radius: 5px; }
+body.ui-interaction-rotatable { cursor: all-scroll !important; }
+body.ui-interaction-rotatable * { cursor: all-scroll !important; }

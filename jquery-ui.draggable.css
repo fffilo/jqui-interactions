@@ -1,0 +1,3 @@
+.ui-draggable { cursor: all-scroll; }
+body.ui-interaction-draggable { cursor: all-scroll !important; }
+body.ui-interaction-draggable * { cursor: all-scroll !important; }

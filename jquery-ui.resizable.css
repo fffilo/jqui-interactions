@@ -1,0 +1,24 @@
+.ui-resizable { cursor: all-scroll; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -o-user-select: none; user-select: none; }
+.ui-resizable-handle.ui-resizable-rotated-n { cursor: n-resize; }
+.ui-resizable-handle.ui-resizable-rotated-ne { cursor: ne-resize; }
+.ui-resizable-handle.ui-resizable-rotated-e { cursor: e-resize; }
+.ui-resizable-handle.ui-resizable-rotated-se { cursor: se-resize; }
+.ui-resizable-handle.ui-resizable-rotated-s { cursor: s-resize; }
+.ui-resizable-handle.ui-resizable-rotated-sw { cursor: sw-resize; }
+.ui-resizable-handle.ui-resizable-rotated-w { cursor: w-resize; }
+.ui-resizable-handle.ui-resizable-rotated-nw { cursor: nw-resize; }
+body.ui-interaction-resizable-n, body.ui-interaction-resizable-n * { cursor: n-resize !important; }
+body.ui-interaction-resizable-e, body.ui-interaction-resizable-e * { cursor: e-resize !important; }
+body.ui-interaction-resizable-s, body.ui-interaction-resizable-s * { cursor: s-resize !important; }
+body.ui-interaction-resizable-w, body.ui-interaction-resizable-w * { cursor: w-resize !important; }
+body.ui-interaction-resizable-ne, body.ui-interaction-resizable-ne * { cursor: ne-resize !important; }
+body.ui-interaction-resizable-se, body.ui-interaction-resizable-se * { cursor: se-resize !important; }
+body.ui-interaction-resizable-sw, body.ui-interaction-resizable-sw * { cursor: sw-resize !important; }
+body.ui-interaction-resizable-nw, body.ui-interaction-resizable-nw * { cursor: nw-resize !important; }
+
+.ui-resizable-handle { width: 10px !important; height: 10px !important; background: #333; }
+.ui-resizable-handle.ui-resizable-n { left: 50%; margin-left: -5px; }
+.ui-resizable-handle.ui-resizable-e { top: 50%; margin-top: -5px; }
+.ui-resizable-handle.ui-resizable-s { left: 50%; margin-left: -5px; }
+.ui-resizable-handle.ui-resizable-w { top: 50%; margin-top: -5px; }
+.ui-resizable-handle.ui-resizable-se { right: -5px; bottom: -5px; }
